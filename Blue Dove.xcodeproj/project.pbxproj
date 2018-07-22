@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD3C664C2104884B00A75DE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3C664B2104884B00A75DE3 /* AppDelegate.swift */; };
+		BD3C664E2104884B00A75DE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3C664D2104884B00A75DE3 /* ViewController.swift */; };
+		BD3C66512104884B00A75DE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3C664F2104884B00A75DE3 /* Main.storyboard */; };
+		BD3C66532104884D00A75DE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3C66522104884D00A75DE3 /* Assets.xcassets */; };
+		BD3C66562104884D00A75DE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3C66542104884D00A75DE3 /* LaunchScreen.storyboard */; };
+		BD3C66612104884D00A75DE3 /* Blue_DoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3C66602104884D00A75DE3 /* Blue_DoveTests.swift */; };
+		BD3C666C2104884D00A75DE3 /* Blue_DoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3C666B2104884D00A75DE3 /* Blue_DoveUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD3C665D2104884D00A75DE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD3C66402104884B00A75DE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD3C66472104884B00A75DE3;
+			remoteInfo = "Blue Dove";
+		};
+		BD3C66682104884D00A75DE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD3C66402104884B00A75DE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD3C66472104884B00A75DE3;
+			remoteInfo = "Blue Dove";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD3C66482104884B00A75DE3 /* Blue Dove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blue Dove.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD3C664B2104884B00A75DE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD3C664D2104884B00A75DE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD3C66502104884B00A75DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD3C66522104884D00A75DE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD3C66552104884D00A75DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD3C66572104884D00A75DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD3C665C2104884D00A75DE3 /* Blue DoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blue DoveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD3C66602104884D00A75DE3 /* Blue_DoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blue_DoveTests.swift; sourceTree = "<group>"; };
+		BD3C66622104884D00A75DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD3C66672104884D00A75DE3 /* Blue DoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blue DoveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD3C666B2104884D00A75DE3 /* Blue_DoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blue_DoveUITests.swift; sourceTree = "<group>"; };
+		BD3C666D2104884D00A75DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD3C66452104884B00A75DE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD3C66592104884D00A75DE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD3C66642104884D00A75DE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD3C663F2104884B00A75DE3 = {
+			isa = PBXGroup;
+			children = (
+				BD3C664A2104884B00A75DE3 /* Blue Dove */,
+				BD3C665F2104884D00A75DE3 /* Blue DoveTests */,
+				BD3C666A2104884D00A75DE3 /* Blue DoveUITests */,
+				BD3C66492104884B00A75DE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD3C66492104884B00A75DE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD3C66482104884B00A75DE3 /* Blue Dove.app */,
+				BD3C665C2104884D00A75DE3 /* Blue DoveTests.xctest */,
+				BD3C66672104884D00A75DE3 /* Blue DoveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD3C664A2104884B00A75DE3 /* Blue Dove */ = {
+			isa = PBXGroup;
+			children = (
+				BD3C664B2104884B00A75DE3 /* AppDelegate.swift */,
+				BD3C664D2104884B00A75DE3 /* ViewController.swift */,
+				BD3C664F2104884B00A75DE3 /* Main.storyboard */,
+				BD3C66522104884D00A75DE3 /* Assets.xcassets */,
+				BD3C66542104884D00A75DE3 /* LaunchScreen.storyboard */,
+				BD3C66572104884D00A75DE3 /* Info.plist */,
+			);
+			path = "Blue Dove";
+			sourceTree = "<group>";
+		};
+		BD3C665F2104884D00A75DE3 /* Blue DoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD3C66602104884D00A75DE3 /* Blue_DoveTests.swift */,
+				BD3C66622104884D00A75DE3 /* Info.plist */,
+			);
+			path = "Blue DoveTests";
+			sourceTree = "<group>";
+		};
+		BD3C666A2104884D00A75DE3 /* Blue DoveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD3C666B2104884D00A75DE3 /* Blue_DoveUITests.swift */,
+				BD3C666D2104884D00A75DE3 /* Info.plist */,
+			);
+			path = "Blue DoveUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD3C66472104884B00A75DE3 /* Blue Dove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD3C66702104884D00A75DE3 /* Build configuration list for PBXNativeTarget "Blue Dove" */;
+			buildPhases = (
+				BD3C66442104884B00A75DE3 /* Sources */,
+				BD3C66452104884B00A75DE3 /* Frameworks */,
+				BD3C66462104884B00A75DE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blue Dove";
+			productName = "Blue Dove";
+			productReference = BD3C66482104884B00A75DE3 /* Blue Dove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD3C665B2104884D00A75DE3 /* Blue DoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD3C66732104884D00A75DE3 /* Build configuration list for PBXNativeTarget "Blue DoveTests" */;
+			buildPhases = (
+				BD3C66582104884D00A75DE3 /* Sources */,
+				BD3C66592104884D00A75DE3 /* Frameworks */,
+				BD3C665A2104884D00A75DE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD3C665E2104884D00A75DE3 /* PBXTargetDependency */,
+			);
+			name = "Blue DoveTests";
+			productName = "Blue DoveTests";
+			productReference = BD3C665C2104884D00A75DE3 /* Blue DoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD3C66662104884D00A75DE3 /* Blue DoveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD3C66762104884D00A75DE3 /* Build configuration list for PBXNativeTarget "Blue DoveUITests" */;
+			buildPhases = (
+				BD3C66632104884D00A75DE3 /* Sources */,
+				BD3C66642104884D00A75DE3 /* Frameworks */,
+				BD3C66652104884D00A75DE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD3C66692104884D00A75DE3 /* PBXTargetDependency */,
+			);
+			name = "Blue DoveUITests";
+			productName = "Blue DoveUITests";
+			productReference = BD3C66672104884D00A75DE3 /* Blue DoveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD3C66402104884B00A75DE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Lobe Musonda";
+				TargetAttributes = {
+					BD3C66472104884B00A75DE3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					BD3C665B2104884D00A75DE3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BD3C66472104884B00A75DE3;
+					};
+					BD3C66662104884D00A75DE3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BD3C66472104884B00A75DE3;
+					};
+				};
+			};
+			buildConfigurationList = BD3C66432104884B00A75DE3 /* Build configuration list for PBXProject "Blue Dove" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD3C663F2104884B00A75DE3;
+			productRefGroup = BD3C66492104884B00A75DE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD3C66472104884B00A75DE3 /* Blue Dove */,
+				BD3C665B2104884D00A75DE3 /* Blue DoveTests */,
+				BD3C66662104884D00A75DE3 /* Blue DoveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD3C66462104884B00A75DE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3C66562104884D00A75DE3 /* LaunchScreen.storyboard in Resources */,
+				BD3C66532104884D00A75DE3 /* Assets.xcassets in Resources */,
+				BD3C66512104884B00A75DE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD3C665A2104884D00A75DE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD3C66652104884D00A75DE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD3C66442104884B00A75DE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3C664E2104884B00A75DE3 /* ViewController.swift in Sources */,
+				BD3C664C2104884B00A75DE3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD3C66582104884D00A75DE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3C66612104884D00A75DE3 /* Blue_DoveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD3C66632104884D00A75DE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3C666C2104884D00A75DE3 /* Blue_DoveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD3C665E2104884D00A75DE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD3C66472104884B00A75DE3 /* Blue Dove */;
+			targetProxy = BD3C665D2104884D00A75DE3 /* PBXContainerItemProxy */;
+		};
+		BD3C66692104884D00A75DE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD3C66472104884B00A75DE3 /* Blue Dove */;
+			targetProxy = BD3C66682104884D00A75DE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD3C664F2104884B00A75DE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD3C66502104884B00A75DE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD3C66542104884D00A75DE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD3C66552104884D00A75DE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD3C666E2104884D00A75DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD3C666F2104884D00A75DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD3C66712104884D00A75DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blue Dove/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lobemusonda.Blue-Dove";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD3C66722104884D00A75DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blue Dove/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lobemusonda.Blue-Dove";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD3C66742104884D00A75DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blue DoveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lobemusonda.Blue-DoveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blue Dove.app/Blue Dove";
+			};
+			name = Debug;
+		};
+		BD3C66752104884D00A75DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blue DoveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lobemusonda.Blue-DoveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blue Dove.app/Blue Dove";
+			};
+			name = Release;
+		};
+		BD3C66772104884D00A75DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blue DoveUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lobemusonda.Blue-DoveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blue Dove";
+			};
+			name = Debug;
+		};
+		BD3C66782104884D00A75DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blue DoveUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lobemusonda.Blue-DoveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blue Dove";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD3C66432104884B00A75DE3 /* Build configuration list for PBXProject "Blue Dove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3C666E2104884D00A75DE3 /* Debug */,
+				BD3C666F2104884D00A75DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD3C66702104884D00A75DE3 /* Build configuration list for PBXNativeTarget "Blue Dove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3C66712104884D00A75DE3 /* Debug */,
+				BD3C66722104884D00A75DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD3C66732104884D00A75DE3 /* Build configuration list for PBXNativeTarget "Blue DoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3C66742104884D00A75DE3 /* Debug */,
+				BD3C66752104884D00A75DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD3C66762104884D00A75DE3 /* Build configuration list for PBXNativeTarget "Blue DoveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3C66772104884D00A75DE3 /* Debug */,
+				BD3C66782104884D00A75DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD3C66402104884B00A75DE3 /* Project object */;
+}
