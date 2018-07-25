@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3795312710DFBEBDE6D6274E /* Pods_Blue_DoveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8340D6FD881C20020B086AFE /* Pods_Blue_DoveUITests.framework */; };
+		403864112DA03A629446C9C7 /* Pods_Blue_Dove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BCCF58F3DB9DA7F786D4A1F /* Pods_Blue_Dove.framework */; };
+		614CE76AD1CCD3CE369B030A /* Pods_Blue_DoveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F7F859D3EB68EE09DF4455 /* Pods_Blue_DoveTests.framework */; };
+		BD28DE7E2108C241008B61C5 /* HandleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD28DE7D2108C241008B61C5 /* HandleViewController.swift */; };
+		BD28DE802108FD60008B61C5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD28DE7F2108FD60008B61C5 /* HomeViewController.swift */; };
 		BD3C664C2104884B00A75DE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3C664B2104884B00A75DE3 /* AppDelegate.swift */; };
 		BD3C664E2104884B00A75DE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3C664D2104884B00A75DE3 /* ViewController.swift */; };
 		BD3C66512104884B00A75DE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3C664F2104884B00A75DE3 /* Main.storyboard */; };
@@ -14,6 +19,9 @@
 		BD3C66562104884D00A75DE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3C66542104884D00A75DE3 /* LaunchScreen.storyboard */; };
 		BD3C66612104884D00A75DE3 /* Blue_DoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3C66602104884D00A75DE3 /* Blue_DoveTests.swift */; };
 		BD3C666C2104884D00A75DE3 /* Blue_DoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3C666B2104884D00A75DE3 /* Blue_DoveUITests.swift */; };
+		BD3C667A21048B5E00A75DE3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD3C667921048B5E00A75DE3 /* GoogleService-Info.plist */; };
+		BDEEB73A2107A0BD00F7F96B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEEB7392107A0BD00F7F96B /* LoginViewController.swift */; };
+		BDEEB73C2107A8A900F7F96B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEEB73B2107A8A900F7F96B /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BCCF58F3DB9DA7F786D4A1F /* Pods_Blue_Dove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blue_Dove.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		408AC5FCFD9E414D6881C9D6 /* Pods-Blue Dove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blue Dove.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Blue Dove/Pods-Blue Dove.debug.xcconfig"; sourceTree = "<group>"; };
+		51AE7E1B2FD8842EC4F937B6 /* Pods-Blue DoveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blue DoveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Blue DoveUITests/Pods-Blue DoveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		66E9E3B642AE705E289C90A9 /* Pods-Blue DoveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blue DoveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Blue DoveTests/Pods-Blue DoveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D4A064DF2213720A2DF91A0 /* Pods-Blue DoveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blue DoveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blue DoveTests/Pods-Blue DoveTests.release.xcconfig"; sourceTree = "<group>"; };
+		7375E849FC442A40EA08A1AE /* Pods-Blue Dove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blue Dove.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blue Dove/Pods-Blue Dove.release.xcconfig"; sourceTree = "<group>"; };
+		8340D6FD881C20020B086AFE /* Pods_Blue_DoveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blue_DoveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BD34E64F9D7F4D3EED2ED7 /* Pods-Blue DoveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blue DoveUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blue DoveUITests/Pods-Blue DoveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B4F7F859D3EB68EE09DF4455 /* Pods_Blue_DoveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blue_DoveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD28DE7D2108C241008B61C5 /* HandleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleViewController.swift; sourceTree = "<group>"; };
+		BD28DE7F2108FD60008B61C5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BD3C66482104884B00A75DE3 /* Blue Dove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blue Dove.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD3C664B2104884B00A75DE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD3C664D2104884B00A75DE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +66,9 @@
 		BD3C66672104884D00A75DE3 /* Blue DoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blue DoveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD3C666B2104884D00A75DE3 /* Blue_DoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blue_DoveUITests.swift; sourceTree = "<group>"; };
 		BD3C666D2104884D00A75DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD3C667921048B5E00A75DE3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BDEEB7392107A0BD00F7F96B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BDEEB73B2107A8A900F7F96B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403864112DA03A629446C9C7 /* Pods_Blue_Dove.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				614CE76AD1CCD3CE369B030A /* Pods_Blue_DoveTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3795312710DFBEBDE6D6274E /* Pods_Blue_DoveUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08D5CAC7A64A692BB97180DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				408AC5FCFD9E414D6881C9D6 /* Pods-Blue Dove.debug.xcconfig */,
+				7375E849FC442A40EA08A1AE /* Pods-Blue Dove.release.xcconfig */,
+				66E9E3B642AE705E289C90A9 /* Pods-Blue DoveTests.debug.xcconfig */,
+				6D4A064DF2213720A2DF91A0 /* Pods-Blue DoveTests.release.xcconfig */,
+				51AE7E1B2FD8842EC4F937B6 /* Pods-Blue DoveUITests.debug.xcconfig */,
+				96BD34E64F9D7F4D3EED2ED7 /* Pods-Blue DoveUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1D31C2CBECEA2B5E354E828C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BCCF58F3DB9DA7F786D4A1F /* Pods_Blue_Dove.framework */,
+				B4F7F859D3EB68EE09DF4455 /* Pods_Blue_DoveTests.framework */,
+				8340D6FD881C20020B086AFE /* Pods_Blue_DoveUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BD3C663F2104884B00A75DE3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +129,8 @@
 				BD3C665F2104884D00A75DE3 /* Blue DoveTests */,
 				BD3C666A2104884D00A75DE3 /* Blue DoveUITests */,
 				BD3C66492104884B00A75DE3 /* Products */,
+				08D5CAC7A64A692BB97180DD /* Pods */,
+				1D31C2CBECEA2B5E354E828C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +149,15 @@
 			children = (
 				BD3C664B2104884B00A75DE3 /* AppDelegate.swift */,
 				BD3C664D2104884B00A75DE3 /* ViewController.swift */,
+				BDEEB73B2107A8A900F7F96B /* SignUpViewController.swift */,
+				BDEEB7392107A0BD00F7F96B /* LoginViewController.swift */,
+				BD28DE7D2108C241008B61C5 /* HandleViewController.swift */,
+				BD28DE7F2108FD60008B61C5 /* HomeViewController.swift */,
 				BD3C664F2104884B00A75DE3 /* Main.storyboard */,
 				BD3C66522104884D00A75DE3 /* Assets.xcassets */,
 				BD3C66542104884D00A75DE3 /* LaunchScreen.storyboard */,
 				BD3C66572104884D00A75DE3 /* Info.plist */,
+				BD3C667921048B5E00A75DE3 /* GoogleService-Info.plist */,
 			);
 			path = "Blue Dove";
 			sourceTree = "<group>";
@@ -132,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD3C66702104884D00A75DE3 /* Build configuration list for PBXNativeTarget "Blue Dove" */;
 			buildPhases = (
+				37CB4A7033EEA3EF663A92CA /* [CP] Check Pods Manifest.lock */,
 				BD3C66442104884B00A75DE3 /* Sources */,
 				BD3C66452104884B00A75DE3 /* Frameworks */,
 				BD3C66462104884B00A75DE3 /* Resources */,
+				FB70F0AC97712F1F0DA580C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD3C66732104884D00A75DE3 /* Build configuration list for PBXNativeTarget "Blue DoveTests" */;
 			buildPhases = (
+				B604D6338EB77F56640B2E69 /* [CP] Check Pods Manifest.lock */,
 				BD3C66582104884D00A75DE3 /* Sources */,
 				BD3C66592104884D00A75DE3 /* Frameworks */,
 				BD3C665A2104884D00A75DE3 /* Resources */,
@@ -167,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD3C66762104884D00A75DE3 /* Build configuration list for PBXNativeTarget "Blue DoveUITests" */;
 			buildPhases = (
+				BC53366351FCFD015ABA9BF8 /* [CP] Check Pods Manifest.lock */,
 				BD3C66632104884D00A75DE3 /* Sources */,
 				BD3C66642104884D00A75DE3 /* Frameworks */,
 				BD3C66652104884D00A75DE3 /* Resources */,
@@ -230,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD3C66562104884D00A75DE3 /* LaunchScreen.storyboard in Resources */,
+				BD3C667A21048B5E00A75DE3 /* GoogleService-Info.plist in Resources */,
 				BD3C66532104884D00A75DE3 /* Assets.xcassets in Resources */,
 				BD3C66512104884B00A75DE3 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +311,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37CB4A7033EEA3EF663A92CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Blue Dove-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B604D6338EB77F56640B2E69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Blue DoveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC53366351FCFD015ABA9BF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Blue DoveUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB70F0AC97712F1F0DA580C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Blue Dove/Pods-Blue Dove-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blue Dove/Pods-Blue Dove-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BD3C66442104884B00A75DE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD28DE7E2108C241008B61C5 /* HandleViewController.swift in Sources */,
+				BDEEB73A2107A0BD00F7F96B /* LoginViewController.swift in Sources */,
 				BD3C664E2104884B00A75DE3 /* ViewController.swift in Sources */,
+				BDEEB73C2107A8A900F7F96B /* SignUpViewController.swift in Sources */,
 				BD3C664C2104884B00A75DE3 /* AppDelegate.swift in Sources */,
+				BD28DE802108FD60008B61C5 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +573,7 @@
 		};
 		BD3C66712104884D00A75DE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 408AC5FCFD9E414D6881C9D6 /* Pods-Blue Dove.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +591,7 @@
 		};
 		BD3C66722104884D00A75DE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7375E849FC442A40EA08A1AE /* Pods-Blue Dove.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +609,7 @@
 		};
 		BD3C66742104884D00A75DE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E9E3B642AE705E289C90A9 /* Pods-Blue DoveTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +630,7 @@
 		};
 		BD3C66752104884D00A75DE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D4A064DF2213720A2DF91A0 /* Pods-Blue DoveTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +651,7 @@
 		};
 		BD3C66772104884D00A75DE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51AE7E1B2FD8842EC4F937B6 /* Pods-Blue DoveUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +671,7 @@
 		};
 		BD3C66782104884D00A75DE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96BD34E64F9D7F4D3EED2ED7 /* Pods-Blue DoveUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
