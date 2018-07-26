@@ -1,0 +1,6 @@
+framework module Pods_Blue_Dove {
+  umbrella header "Pods-Blue Dove-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_Blue_DoveUITests {
+  umbrella header "Pods-Blue DoveUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
