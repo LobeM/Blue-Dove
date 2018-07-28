@@ -10,8 +10,9 @@
 		3795312710DFBEBDE6D6274E /* Pods_Blue_DoveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8340D6FD881C20020B086AFE /* Pods_Blue_DoveUITests.framework */; };
 		403864112DA03A629446C9C7 /* Pods_Blue_Dove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BCCF58F3DB9DA7F786D4A1F /* Pods_Blue_Dove.framework */; };
 		614CE76AD1CCD3CE369B030A /* Pods_Blue_DoveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F7F859D3EB68EE09DF4455 /* Pods_Blue_DoveTests.framework */; };
+		BD264748210A18E400A1F0DC /* HomeViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD264747210A18E400A1F0DC /* HomeViewTableViewCell.swift */; };
+		BD26474C210A475A00A1F0DC /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26474B210A475A00A1F0DC /* HomeTableViewController.swift */; };
 		BD28DE7E2108C241008B61C5 /* HandleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD28DE7D2108C241008B61C5 /* HandleViewController.swift */; };
-		BD28DE802108FD60008B61C5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD28DE7F2108FD60008B61C5 /* HomeViewController.swift */; };
 		BD3C664C2104884B00A75DE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3C664B2104884B00A75DE3 /* AppDelegate.swift */; };
 		BD3C664E2104884B00A75DE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3C664D2104884B00A75DE3 /* ViewController.swift */; };
 		BD3C66512104884B00A75DE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3C664F2104884B00A75DE3 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		BD3C66612104884D00A75DE3 /* Blue_DoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3C66602104884D00A75DE3 /* Blue_DoveTests.swift */; };
 		BD3C666C2104884D00A75DE3 /* Blue_DoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3C666B2104884D00A75DE3 /* Blue_DoveUITests.swift */; };
 		BD3C667A21048B5E00A75DE3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD3C667921048B5E00A75DE3 /* GoogleService-Info.plist */; };
+		BD5F44CA210B9D440067053E /* NewTweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5F44C9210B9D440067053E /* NewTweetViewController.swift */; };
 		BDEEB73A2107A0BD00F7F96B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEEB7392107A0BD00F7F96B /* LoginViewController.swift */; };
 		BDEEB73C2107A8A900F7F96B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEEB73B2107A8A900F7F96B /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
@@ -51,8 +53,9 @@
 		8340D6FD881C20020B086AFE /* Pods_Blue_DoveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blue_DoveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96BD34E64F9D7F4D3EED2ED7 /* Pods-Blue DoveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blue DoveUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blue DoveUITests/Pods-Blue DoveUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B4F7F859D3EB68EE09DF4455 /* Pods_Blue_DoveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blue_DoveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD264747210A18E400A1F0DC /* HomeViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewTableViewCell.swift; sourceTree = "<group>"; };
+		BD26474B210A475A00A1F0DC /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		BD28DE7D2108C241008B61C5 /* HandleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleViewController.swift; sourceTree = "<group>"; };
-		BD28DE7F2108FD60008B61C5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BD3C66482104884B00A75DE3 /* Blue Dove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blue Dove.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD3C664B2104884B00A75DE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD3C664D2104884B00A75DE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +70,7 @@
 		BD3C666B2104884D00A75DE3 /* Blue_DoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blue_DoveUITests.swift; sourceTree = "<group>"; };
 		BD3C666D2104884D00A75DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD3C667921048B5E00A75DE3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BD5F44C9210B9D440067053E /* NewTweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTweetViewController.swift; sourceTree = "<group>"; };
 		BDEEB7392107A0BD00F7F96B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BDEEB73B2107A8A900F7F96B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,7 +156,9 @@
 				BDEEB73B2107A8A900F7F96B /* SignUpViewController.swift */,
 				BDEEB7392107A0BD00F7F96B /* LoginViewController.swift */,
 				BD28DE7D2108C241008B61C5 /* HandleViewController.swift */,
-				BD28DE7F2108FD60008B61C5 /* HomeViewController.swift */,
+				BD26474B210A475A00A1F0DC /* HomeTableViewController.swift */,
+				BD264747210A18E400A1F0DC /* HomeViewTableViewCell.swift */,
+				BD5F44C9210B9D440067053E /* NewTweetViewController.swift */,
 				BD3C664F2104884B00A75DE3 /* Main.storyboard */,
 				BD3C66522104884D00A75DE3 /* Assets.xcassets */,
 				BD3C66542104884D00A75DE3 /* LaunchScreen.storyboard */,
@@ -397,12 +403,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD26474C210A475A00A1F0DC /* HomeTableViewController.swift in Sources */,
+				BD5F44CA210B9D440067053E /* NewTweetViewController.swift in Sources */,
 				BD28DE7E2108C241008B61C5 /* HandleViewController.swift in Sources */,
 				BDEEB73A2107A0BD00F7F96B /* LoginViewController.swift in Sources */,
+				BD264748210A18E400A1F0DC /* HomeViewTableViewCell.swift in Sources */,
 				BD3C664E2104884B00A75DE3 /* ViewController.swift in Sources */,
 				BDEEB73C2107A8A900F7F96B /* SignUpViewController.swift in Sources */,
 				BD3C664C2104884B00A75DE3 /* AppDelegate.swift in Sources */,
-				BD28DE802108FD60008B61C5 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

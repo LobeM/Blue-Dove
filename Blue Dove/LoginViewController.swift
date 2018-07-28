@@ -14,16 +14,18 @@ class LoginViewController: UIViewController {
 
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var login: UIBarButtonItem!
     
     var rootRef = Database.database().reference()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        login.isEnabled = false
         // Do any additional setup after loading the view.
     }
 
     @IBAction func didTapLogin(_ sender: UIBarButtonItem) {
+        login.isEnabled = false
         Auth.auth().signIn(withEmail: email.text!, password: password.text!) { (user, error) in
             if error == nil {
                 self.rootRef.child("user_profiles").child((user?.user.uid)!).child("handle").observeSingleEvent(of: .value, with: { (snapshot: DataSnapshot) in
@@ -42,7 +44,13 @@ class LoginViewController: UIViewController {
                 let cancelAction = UIAlertAction(title: "Try again", style: .cancel, handler: nil)
                 ac.addAction(cancelAction)
                 self.present(ac, animated: true, completion: nil)
+                self.login.isEnabled = true
             }
+        }
+    }
+    @IBAction func textDidChange(_ sender: UITextField) {
+        if (email.text!.count) > 0 && (password.text!.count) > 0 {
+            login.isEnabled = true
         }
     }
     override func didReceiveMemoryWarning() {

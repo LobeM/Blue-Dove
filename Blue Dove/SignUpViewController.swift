@@ -35,6 +35,7 @@ class SignUpViewController: UIViewController {
                 let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
                 ac.addAction(cancelAction)
                 self.present(ac, animated: true, completion: nil)
+                self.signUp.isEnabled = true
             } else {
                 self.errorMessage.text = "Registered Succesfully"
                 Auth.auth().signIn(withEmail: self.email.text!, password: self.password.text!, completion: { (user, error) in
