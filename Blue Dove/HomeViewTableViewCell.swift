@@ -8,21 +8,26 @@
 
 import UIKit
 
-class HomeViewTableViewCell: UITableViewCell {
+public class HomeViewTableViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
+    @IBOutlet weak var profilePic: UIImageView!
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var handle: UILabel!
+    @IBOutlet weak var tweet: UITextView!
+    
+    override public func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    public func configure(profilePic: String?, name: String, handle: String, tweet: String) {
+        self.tweet.text = tweet
+        self.handle.text = "@"+handle
+        self.name.text = name
+        
+        if profilePic != nil {
+            let imageData = NSData(contentsOf: NSURL(string: profilePic!)! as URL)
+            self.profilePic.image = UIImage(data: imageData! as Data)
+        }
     }
-
 }
-
-//extension HomeViewTableViewCell: UITextViewDelegate {
-//    
-//}
