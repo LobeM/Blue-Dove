@@ -7,12 +7,24 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        Auth.auth().addStateDidChangeListener { (auth, user) in
+            if user != nil {
+                print("user is signed in")
+                
+                //Send the user to the HomeTableViewController
+                let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                let homeTableViewController = mainStoryboard.instantiateViewController(withIdentifier: "TabBarControllerView")
+                
+                //send the user to the home screen
+                self.present(homeTableViewController, animated: true, completion: nil)
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
